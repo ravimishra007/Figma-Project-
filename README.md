@@ -87,7 +87,7 @@ To view the Reliance Digital Clone locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   https://github.com/azadanshu/code-wizard-8765-figma-/tree/main/code-wizard-8765-figma-
+   https://github.com/ravimishra007/Figma-Project-?tab=readme-ov-file
    ```
 
 2. Open the `index.html` file in your preferred web browser.
