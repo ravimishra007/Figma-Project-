@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+    width: 1440px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.supriya{
+  width: 1440px;
+  height: 768px;
+} 
+
+.azad{
+    width: 1440px;
+    min-height: 1500px;
+}
+.pavan{
+  width: 1440px;
+  min-height: 2096px;
+  background-color: red;
+}
+.ravi {
+  width: 1440px;
+  background-color: #f5f6fc;
+  height: 1568px;
+  flex-shrink: 0;
+}
+.gaurav {
+  width: 1440px;
+  height: auto;
+  background-color: #f5f6fc;
+  
+}
+
+@import "supriya";
+@import "pavan";
+@import "gaurav";
+@import "ravi";
+@import "azad";

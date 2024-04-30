@@ -1,0 +1,262 @@
+#container-main1 {
+  width: 1440px;
+  height: 768px;
+  background: #434ccc;
+  @media screen and (max-width: 375px) {
+    width: 375px;
+    height: 768px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+#box-main1 {
+  width: 1170px;
+  margin: auto;
+  height: 768px;
+  @media screen and (max-width: 375px) {
+    width: 346px;
+    margin-left: 14px;
+    margin-right: 15px;
+    height: 768px;
+  }
+}
+#navbar {
+  display: flex;
+}
+#logo-image{
+  width: 100px;
+  height: 70px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  position: absolute;
+  left: 140px;
+  top: 20px;
+  transition: transform 0.5s ease-in-out; 
+  @media screen and (max-width: 375px) {
+    height: 35px;
+    width: 50px;
+    border-radius: 5px;
+    left: 20px;
+    top: 15px;
+  }
+}
+#logo-image:hover{
+  transform: scale(1.2);
+}
+#logo {
+  color: var(--Text_White, #fff);
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  width: 102px;
+  height: 48px;
+  margin-top: 16px;
+  margin-right: 534px;
+  @media screen and (max-width: 375px) {
+    height: 32px;
+    width: 62px;
+    margin-right: 240px;
+  }
+}
+#nav {
+  width: 324px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--Text_White, #fff);
+  text-align: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  margin-right: 40px;
+  margin-top: 28px;
+  cursor: pointer;
+  @media screen and (max-width: 375px) {
+    display: none;
+  }
+}
+
+#but-1 {
+  margin-top: 16px;
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  background: #434ccc;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  @media screen and (max-width: 375px) {
+    display: none;
+  }
+}
+
+#menu-bar {
+  display: none;
+  margin-left: 20px;
+  width: 20px;
+  height: 14px;
+  flex-shrink: 0;
+  color: #fff;
+}
+  @media screen and (max-width: 375px) {
+    #menu-bar {
+    display: block;
+    margin-top: 24px;
+  }
+  }
+#nav-visble {
+  display: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  @media screen and (max-width: 375px) {
+    #menu-bar:hover + #nav-visble {
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 240px;
+    height: 150px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+}
+
+//navbar end
+#heding-5 {
+  margin-top: 111px;
+  color: var(--Text_White, #fff);
+  /* H5 */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  @media screen and (max-width: 375px) {
+    margin-top: 31px;
+  }
+}
+
+#h1-div1 {
+  width: 515px;
+  height: 160px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+#heding-1 {
+  color: var(--Text_White, #FFF);
+  /* H1 */
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 111.111% */
+}
+
+@media screen and (max-width: 375px) {
+  #h1-div1 {
+    margin-top: 5px;
+    width: 258px;
+    height: 192px;
+    margin-right: 103px;
+  }
+
+  #heding-1 {
+    color: var(--Text_White, #fff);
+    font-family: "DM Serif Display";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 114.286% */
+  }
+}
+#p-div1 {
+  width: 370px;
+  height: 72px;
+  margin-bottom: 41px;
+  #para-1 {
+    color: var(--Text_White, #FFF);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+  }
+  @media screen and (max-width: 375px) {
+    #p-div1 {
+      margin-top: 19px;
+      width: 346px;
+      height: 72px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+#but-2 {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: none;
+  background: var(--Primary_2, #f1b505);
+  color: #fff;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+#image-div {
+  width: 1074px;
+  height: 716px;
+  flex-shrink: 0;
+  background-image: url(./clip-1.png);
+  position: absolute;
+  top: 48px;
+  left: 447px;
+}
+
+@media screen and (max-width: 375px) {
+  #image-div {
+    background-image: url(./clip-1.png);
+
+    background-size: 125% auto;
+    background-position: center;
+    width: 350px;
+    height: 300px;
+    top: 465px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 0px;
+  }
+}
+// supriya saas end here
